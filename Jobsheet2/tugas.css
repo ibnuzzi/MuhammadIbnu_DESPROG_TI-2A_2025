@@ -1,0 +1,42 @@
+body {
+    font-family: sans-serif;
+    background-color: #add8e6;
+    background-image: url(img/lambang_polinema.png);
+    background-repeat: no-repeat;
+    background-position: center 150%;
+}
+
+.container {
+    background-color: #fff;
+    display: flex;
+    max-width: 900px;
+    margin: 50px auto;
+    border: 5px solid #ccc;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    padding: 20px;
+}
+
+.sidebar {
+    flex: 1; 
+    padding: 20px;
+}
+
+.content {
+    padding: 20px;
+    flex: 2;
+    border-left: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+}
+
+h2 {
+    margin-top: 0;
+}
+
+h3 {
+    margin-top: 0;
+}
+
+li {
+    margin-bottom: 5px;
+}
+
